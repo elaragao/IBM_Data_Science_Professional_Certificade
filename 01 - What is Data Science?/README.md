@@ -19,7 +19,7 @@ The introductory course covers fundamental concepts, including the use of machin
  - Know the various paths that can lead to a career in data science.
 
  - Reciveds advice given by seasoned data science professionals to data scientists who are just starting out.
- - 
+
 
 ## Certificates 🏆
 
