@@ -1,4 +1,4 @@
-# What is Data Science? 
+# Databases and SQL for Data Science with Python
 
 ## Summary :memo:
 
