@@ -46,5 +46,5 @@ The most commonly used Python libraries in the course include:
 
 
 ## Certificates :trophy:
-<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2.jpeg" alt="Certificado" width="950" height="600">
+<a href="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2.jpeg"><img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2/CERTIFICATE_LANDING_PAGE~L3563BQAHTY2.jpeg" height="430"></a>
 
