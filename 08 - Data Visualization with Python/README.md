@@ -15,7 +15,7 @@ This course showed you ways to work with many data visualization tools and techn
          - Bar Charts
      - Specialized Visualization Tools
          - Pie Charts
-         - Box
+         - Box Plot
          - Scatter Plot
  - [Advanced Visualizations and Geospatial Data](https://github.com/elaragao/IBM_Data_Science_Professional_Certificade/tree/main/08%20-%20Data%20Visualization%20with%20Python/03%20-%20Advanced%20Visualizations%20and%20Geospatial%20Data)
      - Advanced Visualization Tools
