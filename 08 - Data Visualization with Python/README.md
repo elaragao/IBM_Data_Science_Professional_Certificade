@@ -8,7 +8,7 @@ This course showed you ways to work with many data visualization tools and techn
 
 ## Main Topics :clipboard:
  - Introduction to Data Visualization Tools
- - Basic and Specialized Visualization Tools
+ - [Basic and Specialized Visualization Tools](https://github.com/elaragao/IBM_Data_Science_Professional_Certificade/tree/main/08%20-%20Data%20Visualization%20with%20Python/02%20-%20Basic%20and%20Specialized%20Visualization%20Tools)
      - Basic Visualization Tools
          - Area Plot
          - Histogram
@@ -17,7 +17,7 @@ This course showed you ways to work with many data visualization tools and techn
          - Pie Charts
          - Box
          - Scatter Plot
- - Advanced Visualizations and Geospatial Data
+ - [Advanced Visualizations and Geospatial Data](https://github.com/elaragao/IBM_Data_Science_Professional_Certificade/tree/main/08%20-%20Data%20Visualization%20with%20Python/03%20-%20Advanced%20Visualizations%20and%20Geospatial%20Data)
      - Advanced Visualization Tools
          - Waffle Chart
          - Word Cloud
@@ -26,10 +26,10 @@ This course showed you ways to work with many data visualization tools and techn
          - Folium
          - Markers
          - Choropleth Maps
- - Creating Dashboards with Plotly and Dash
+ - [Creating Dashboards with Plotly and Dash](https://github.com/elaragao/IBM_Data_Science_Professional_Certificade/tree/main/08%20-%20Data%20Visualization%20with%20Python/04%20-%20Creating%20Dashboards%20with%20Plotly%20and%20Dash)
      - Creating Dashboar with Plotly
      - Working with Dash
- - Final Project
+ - [Final Project](https://github.com/elaragao/IBM_Data_Science_Professional_Certificade/tree/main/08%20-%20Data%20Visualization%20with%20Python/05%20-%20Final%20Project)
    
 ## Key Skills Learned :key:
  - Implement data visualization techniques and graphs using Python libraries such as Matplotlib, Seaborn, and Folium.
