@@ -47,7 +47,7 @@ The basic syntax is:
 
     SELECT column1, column2 FROM TABLE WHERE condition;
 
-In the example below, there will be selected all the columns from the table "CUSTUMERS" where their respective ages are above 30 years
+In the example below, there will be selected all the columns from the table "CUSTOMERS" where their respective ages are above 30 years.
 
     SELECT * FROM CUSTUMERS WHERE age > 30;
 
@@ -62,13 +62,72 @@ Some of the comparison criteria are:
 
     
 ## `COUNT` Statement
+The `COUNT` function in SQL is used to return the number of rows that match a specific criteria. It is often used to count how many entries there are in a table or how many entries meet a certain condition.
+
+The basic syntax is:
+
+    SELECT COUNT(column) FROM table;
+
+In the example below, will be returned the number of customers from the table "CUSTOMERS" where their respective ages are above 30 years.
+
+    SELECT COUNT(*) FROM customers WHERE age > 30;
+    
 
 ## `DISTINCT` Statement
+The `DISTINCT` clause in SQL is used to remove duplicates from a result set. It only returns distinct (different) values ​​in the query.
 
+The basic syntax is:
+
+    SELECT DISTINCT column FROM table;
+
+For example, it returns a list of unique cities present in the customer table, without repetitions.
+
+    SELECT DISTINCT city FROM customers;
+
+    
 ## `LIMIT` Statement
+The `LIMIT` clause in SQL is used to specify the maximum number of records that the query should return. This is useful when you only want to get a portion of the result set.
 
+The basic syntax is:
+
+    SELECT column FROM table LIMIT number;
+
+The example below it only returns the first 10 records from the customers table.
+
+    SELECT * FROM customers LIMIT 10;
+
+    
 ## `INSERT` Statement
+The `INSERT` command in SQL is used to add new records to a table in a database.
+
+The basic syntax is:
+
+    INSERT INTO table (column1, column2, ...) VALUES (value1, value2, ...);
+
+For example, add a new record to the customer table with the name "John" and age 30.
+
+    INSERT INTO customers (name, age) VALUES ('John', 30);
+
 
 ## `UPDATE` Statement
+The `UPDATE` command in SQL is used to modify existing records in a database table.
+
+The basic syntax is:
+
+    UPDATE table SET column1 = value1, column2 = value2, ... WHERE condition;
+
+The example below updates the age to 31 in the record where the name is "John". The WHERE clause is crucial for specifying which records should be updated; otherwise, all rows in the table will be modified.
+
+    UPDATE clients SET age = 31 WHERE name = 'John';
+
 
 ## `DELETE` Statement
+The `DELETE` command in SQL is used to remove records from a database table.
+
+The basic syntax is:
+
+    DELETE FROM table WHERE condition;
+
+The example below removes all records where the age is less than 18. The WHERE clause is essential to specify which records should be deleted; without it, all records in the table will be removed.
+
+    DELETE FROM customers WHERE age < 18;
