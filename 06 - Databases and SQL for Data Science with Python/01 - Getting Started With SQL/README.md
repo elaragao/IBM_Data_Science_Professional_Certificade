@@ -28,7 +28,39 @@ For the majority of people using a database, there are five simple commands:
 
 
 ## `SELECT` Statement
+The 'SELECT' Statement is used in SQL to retrieve data from a database. It allows you to specify which columns of a table should be returned.
 
+    SELECT column1 FROM TABLE;
+ 
+If multiple columns are selected, the columns will be returned in the order in which they were called.
+    
+    SELECT column1, column2, column3 FROM TABLE;
+
+If you select all available columns in a given database, "*" will be used for this.
+
+    SELECT * FROM TABLE;
+
+### Filtering Results
+The `SELECT` clause can be combined with other clauses, such as `WHERE`, to filter the desired results. It allows you to specify which rows should be included in the query result, based on criteria such as equality, inequality, or other comparisons. 
+
+The basic syntax is:
+
+    SELECT column1, column2 FROM TABLE WHERE condition;
+
+In the example below, there will be selected all the columns from the table "CUSTUMERS" where their respective ages are above 40 years
+
+    SELECT * FROM CUSTUMERS WHERE age > 30;
+
+### Comparsions Criteria
+Some of the comparison criteria are:
+ - Equal to (`=`)
+ - Not equal to (`<>`)
+ - Greater than (`>`)
+ - Less than (`<`)
+ - Greater than or equal to (`>=`)
+ - Less than or equal to (`<=`)
+
+    
 ## `COUNT` Statement
 
 ## `DISTINCT` Statement
