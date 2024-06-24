@@ -47,7 +47,7 @@ The basic syntax is:
 
     SELECT column1, column2 FROM TABLE WHERE condition;
 
-In the example below, there will be selected all the columns from the table "CUSTUMERS" where their respective ages are above 40 years
+In the example below, there will be selected all the columns from the table "CUSTUMERS" where their respective ages are above 30 years
 
     SELECT * FROM CUSTUMERS WHERE age > 30;
 
